@@ -44,7 +44,8 @@ export default function App() {
       </p>
       <input id="Time" type="date" defaultValue={Time} onChange={e=>setTime(e.target.value)} placeholder="请输入截止日期"></input>
       <Button onClick={ButtonCLick}>添加</Button>
-
+      <p>{Char}</p>
+      <p>{Time}</p>
       {Thing.map((item, index) => (
         <div class="card-container" key={item} >
         <Card class="Card" key={index} Char={item.Mystring} Time={item.Mytime} 
