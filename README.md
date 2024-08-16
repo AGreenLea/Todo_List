@@ -1,7 +1,8 @@
 # Todo_List
 OurEDA作业
-
-在本文件中包含有React项目、Node项目和所使用的数据库，在使用该文档前，请先在my文件夹下进入命令行窗口（或终端），依次执行以下两条命令：
+由于Github默认不上传node_modules文件夹，下载解压后，请在my文件下打开命令行窗口或终端，运行以下代码：
+npm install
+在本文件中包含有React项目、Node项目和所使用的数据库，在使用该文档前，请在my文件下打开命令行窗口或终端，运行以下代码：
 node newindex.js
 
 npm start
